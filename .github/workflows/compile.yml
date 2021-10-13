@@ -21,12 +21,16 @@ jobs:
         node-version: '14'
         cache: 'npm'
     - run: npm ci
-    - run: npx tsc --project tsconfig.cjs.json
-    - run: npx tsc --project tsconfig.esm.json
+    - name: build binary
+      run: |
+        npx tsc --project tsconfig.cjs.json
+        npx tsc --project tsconfig.esm.json
     - run: |
         git remote set-url origin https://github-actions:${GITHUB_TOKEN}@github.com/${GITHUB_REPOSITORY}
         git config --global user.name "${GITHUB_ACTOR}"
         git config --global user.email "${GITHUB_ACTOR}@users.noreply.github.com"
-        git add .
-        git commit -m "Build binary by github-actions"
-        git push origin HEAD:${GITHUB_REF}
+        if (git diff --shortstat | grep '[0-9]'); then
+          git add .
+          git commit -m "Build binary by github-actions"
+          git push origin HEAD:${GITHUB_REF}
+        fi
