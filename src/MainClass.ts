@@ -1,3 +1,3 @@
 export class MainClass{
-
+    sub(){}
 }
