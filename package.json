@@ -1,0 +1,24 @@
+{
+  "name": "minimal-tsc-action",
+  "version": "0.1.0",
+  "description": "Minimal typescript compile action",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build_cjs": "npx tsc --project tsconfig.cjs.json",
+    "build_esm": "npx tsc --project tsconfig.esm.json"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MasatoMakino/minimal-tsc-action.git"
+  },
+  "author": "",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MasatoMakino/minimal-tsc-action/issues"
+  },
+  "homepage": "https://github.com/MasatoMakino/minimal-tsc-action#readme",
+  "devDependencies": {
+    "typescript": "^4.4.4"
+  }
+}
