@@ -4,7 +4,6 @@
   "description": "Minimal typescript compile action",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "build_cjs": "npx tsc --project tsconfig.cjs.json",
     "build_esm": "npx tsc --project tsconfig.esm.json"
   },
