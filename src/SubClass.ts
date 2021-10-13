@@ -1,13 +1,11 @@
 import {MainClass} from "./MainClass";
 
-export class SubClass extends MainClass{
+export class SubClass extends MainClass {
     constructor() {
         super();
     }
-    add(){
 
-    }
-    sub(){
+    add() {
 
     }
 }
