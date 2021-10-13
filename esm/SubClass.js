@@ -5,6 +5,4 @@ export class SubClass extends MainClass {
     }
     add() {
     }
-    sub() {
-    }
 }

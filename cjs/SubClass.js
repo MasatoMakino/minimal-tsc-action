@@ -8,7 +8,5 @@ class SubClass extends MainClass_1.MainClass {
     }
     add() {
     }
-    sub() {
-    }
 }
 exports.SubClass = SubClass;

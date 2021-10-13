@@ -1,1 +1,1 @@
-{"version":3,"file":"SubClass.d.ts","sourceRoot":"","sources":["../src/SubClass.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,SAAS,EAAC,MAAM,aAAa,CAAC;AAEtC,qBAAa,QAAS,SAAQ,SAAS;;IAInC,GAAG;IAGH,GAAG;CAGN"}
+{"version":3,"file":"SubClass.d.ts","sourceRoot":"","sources":["../src/SubClass.ts"],"names":[],"mappings":"AAAA,OAAO,EAAC,SAAS,EAAC,MAAM,aAAa,CAAC;AAEtC,qBAAa,QAAS,SAAQ,SAAS;;IAKnC,GAAG;CAGN"}
