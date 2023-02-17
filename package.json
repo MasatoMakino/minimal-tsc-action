@@ -4,8 +4,8 @@
   "description": "Minimal typescript compile action",
   "main": "index.js",
   "scripts": {
-    "build_cjs": "npx tsc --project tsconfig.cjs.json",
-    "build_esm": "npx tsc --project tsconfig.esm.json"
+    "build_cjs": "tsc --project tsconfig.cjs.json",
+    "build_esm": "tsc --project tsconfig.esm.json"
   },
   "repository": {
     "type": "git",
@@ -18,6 +18,6 @@
   },
   "homepage": "https://github.com/MasatoMakino/minimal-tsc-action#readme",
   "devDependencies": {
-    "typescript": "^4.4.4"
+    "typescript": "^4.9.5"
   }
 }
