@@ -1,6 +1,6 @@
 {
   "name": "minimal-tsc-action",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Minimal typescript compile action",
   "main": "index.js",
   "scripts": {
